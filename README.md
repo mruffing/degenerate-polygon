@@ -1,8 +1,8 @@
 ## 2009 Polygon Simplifier
 
-This algorith detects and simplifies a polygon based on perpendicular distance between line segments of the polygon (built using two adjacent vertices) and the adjacent vertex. I originally came up with the algorithm to help detect (and eventually simplify) polygons with parts/sections with zero (or very small) area.  These types of polygons are also referred to as "degenerate" polygons.
+This algorithm detects and simplifies a polygon based on perpendicular distance between line segments of the polygon (built using two adjacent vertices) and the adjacent vertex. I originally came up with the algorithm to help detect (and eventually simplify) polygons with parts/sections with zero (or very small) area.  These types of polygons are also referred to as "degenerate" polygons.
 
-Sometme later I discovered this algorith is very similar to Ramer-Douglas-Peucker algorithm [Reference](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm) for line segment simplification.
+Sometime later I discovered this algorithm is very similar to Ramer-Douglas-Peucker algorithm [Reference](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm) for line segment simplification.
 
 Pseudocode Code:
 ```
