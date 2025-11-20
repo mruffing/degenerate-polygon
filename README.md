@@ -4,7 +4,7 @@ This algorithm detects and simplifies a polygon based on perpendicular distance 
 
 Sometime later I discovered this algorithm is very similar to [Ramer-Douglas-Peucker](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm) algorithm for line segment simplification.
 
-Pseudocode Code:
+Pseudocode:
 ```
 in_polygon
 # Add the first line segment of the polygon 
