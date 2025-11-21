@@ -27,6 +27,7 @@ def right_click(e):
     polyline.extend([e.x, e.y])
     polylines.append(list(polyline))
     polyline.clear()
+    line_ids.clear()
 
     print(polylines)
 
